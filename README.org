@@ -27,3 +27,5 @@ If not, execute
 #+end_src
 from `./bin`.
 A live `pyplot` figure should open up.
+
+[[./out/demo-image.png]]
