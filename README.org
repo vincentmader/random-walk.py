@@ -1,12 +1,12 @@
 * Live Visualization of 2D Random-Walk
 
-*Requirements:*
+*** Requirements:
 - `python3`
 
-*Optional:*
+*** Optional:
 - `make` command-line tool
 
-*Setting up:*
+*** Setting up:
 If you have `make`, just run
 #+begin_src
 make setup
@@ -16,7 +16,7 @@ from your shell. If not, navigate into `./bin` and run
 ./setup
 #+end_src
 
-*Running:*
+*** Running:
 If you have `make`, execute
 #+begin_src
 make random-walk
@@ -26,5 +26,4 @@ If not, execute
 ./random-walk
 #+end_src
 from `./bin`.
-
 A live `pyplot` figure should open up.
