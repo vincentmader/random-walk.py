@@ -2,14 +2,10 @@
 
 [[./out/demo-image.png]]
 
-*** Requirements:
-- `python3`
+*** Setup
+Note: An installation of `python3` is required.
 
-*** Optional:
-- `make` command-line tool
-
-*** Setting up:
-If you have `make`, just run
+If you have the `make` command-line tool installed, just run
 #+begin_src
 make setup
 #+end_src
@@ -18,12 +14,12 @@ from your shell. If not, navigate into `./bin` and run
 ./setup
 #+end_src
 
-*** Running:
-If you have `make`, execute
+*** Execution
+Once again, if you DO have `make`, run
 #+begin_src
 make random-walk
 #+end_src
-If not, execute
+If you don't not, navigate into `./bin` and execute
 #+begin_src
 ./random-walk
 #+end_src
