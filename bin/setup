@@ -5,3 +5,6 @@
 
 #   Install python dependencies.
     ../venv/bin/pip3 install -r ../requirements.txt
+
+#   Pull matplotlib stylesheets from GitHub.
+    git clone https://github.com/vincentmader/mpl-styles ../src/mpl-styles

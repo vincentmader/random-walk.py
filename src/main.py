@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 from datetime import datetime as dt
-import random
 
 import matplotlib.pyplot as plt
 import numpy as np
 
-MPL_THEME = "~/.config/matplotlib/dark.mplstyle"
+MPL_THEME = "./mpl-styles/dark.mplstyle"
 plt.style.use(MPL_THEME)
 
 
@@ -28,7 +27,7 @@ def random_displacement():
 def plot_positions(positions):
     for pos_id in range(1, len(positions)):
         alpha = pos_id / len(positions)
-        color = (alpha, alpha, alpha)
+        color = [alpha, alpha, alpha]
         p_1x = positions[pos_id][0]
         p_1y = positions[pos_id][1]
         p_2x = positions[pos_id-1][0]
