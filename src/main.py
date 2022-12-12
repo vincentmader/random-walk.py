@@ -45,7 +45,7 @@ def plot_positions(positions):
 
 
 def plot_avg_squared_distances(positions):
-    plt.title(r"mean squared distance $|\vec r|^2$ vs. time $t$")
+    plt.title(r"mean squared distance $\langle|\vec r|^2\rangle$ vs. time $t$")
 
     plt.plot(average_squared_distances, color="white")
 
