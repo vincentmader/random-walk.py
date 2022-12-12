@@ -1,5 +1,7 @@
 * Live Visualization of 2D Random-Walk
 
+[[./out/demo-image.png]]
+
 *** Requirements:
 - `python3`
 
@@ -27,5 +29,3 @@ If not, execute
 #+end_src
 from `./bin`.
 A live `pyplot` figure should open up.
-
-[[./out/demo-image.png]]
