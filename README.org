@@ -1,6 +1,6 @@
 * Live Visualization of 2D Random-Walk
 
-[[./out/demo-image.png]]
+[[./out/demo-image-v2.png]]
 
 *** Requirements:
 - `python3`
