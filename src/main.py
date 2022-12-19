@@ -65,8 +65,10 @@ if __name__ == "__main__":
     while True:
         start = dt.now()
 
-        new_pos = positions[-1] + random_displacement()
-        positions.append(new_pos)
+        BATCH_SIZE = 5
+        for _ in range(BATCH_SIZE):
+            new_pos = positions[-1] + random_displacement()
+            positions.append(new_pos)
 
         squared_distances = [pos[0]**2 + pos[1]**2 for pos in positions]
         average_squared_distance = np.average(squared_distances)
