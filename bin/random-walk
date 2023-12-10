@@ -1,4 +1,4 @@
 #!/bin/sh
 
 #   Start random-walk visualization.
-    cd ../src/ && ../venv/bin/python3 ./main.py
+    cd ../src/ && ../.venv/bin/python3 ./main.py
