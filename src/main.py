@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 from datetime import datetime as dt
+from pathlib import Path
 
 import matplotlib.pyplot as plt
 import numpy as np
 
-MPL_THEME = "./mpl-styles/dark.mplstyle"
+MPL_THEME = Path("..", "lib", "mpl-styles", "dark.mplstyle")
 plt.style.use(MPL_THEME)
 
 
